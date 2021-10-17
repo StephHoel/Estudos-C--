@@ -5,15 +5,19 @@
 
 using namespace std;
 
-void imprimirMsg(){
-   cout << "Alô Mundo!\n";
-}
+void imprimirMsg();
 
-int main(){
+int main()
+{
    setlocale(LC_ALL, "Portuguese");
 
    imprimirMsg();
 
    system("pause");
    return 0;
+}
+
+void imprimirMsg()
+{
+   cout << "Alô Mundo!\n\n";
 }
