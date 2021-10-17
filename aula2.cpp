@@ -8,7 +8,7 @@ using namespace std;
 void imprimirMsg();
 float calculaImposto();
 int soma(int vlr1, int vlr2);
-void alterarDado(int vlr1);
+void alterarDado(int& vlr1);
 
 int main()
 {
@@ -57,6 +57,6 @@ int soma(int vlr1, int vlr2){
    return total;
 }
 
-void alterarDado(int vlr1){
+void alterarDado(int& vlr1){
    vlr1 = 100;
 }
