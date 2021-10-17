@@ -20,9 +20,7 @@ int main()
 
    // cout << "Resultado do calculo: " << soma(10, 20) << "\n\n";
 
-   int vlr1;
-
-   vlr1 = 20;
+   int vlr1 = 20;
 
    alterarDado(vlr1);
 
