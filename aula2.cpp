@@ -8,6 +8,7 @@ using namespace std;
 void imprimirMsg();
 float calculaImposto();
 int soma(int vlr1, int vlr2);
+void alterarDado(int vlr1);
 
 int main()
 {
@@ -17,7 +18,16 @@ int main()
 
    // cout << "Resultado do calculo: " << calculaImposto() << "\n\n";
 
-   cout << "Resultado do calculo: " << soma(10, 20) << "\n\n";
+   // cout << "Resultado do calculo: " << soma(10, 20) << "\n\n";
+
+   int vlr1;
+
+   vlr1 = 20;
+
+   alterarDado(vlr1);
+
+   cout << "Valor alterado: " << vlr1 << "\n\n";
+
 
    system("pause");
    return 0;
@@ -45,4 +55,8 @@ int soma(int vlr1, int vlr2){
    total = vlr1 + vlr2;
 
    return total;
+}
+
+void alterarDado(int vlr1){
+   vlr1 = 100;
 }
