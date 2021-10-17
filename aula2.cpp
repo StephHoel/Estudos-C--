@@ -15,7 +15,13 @@ int main()
 
    // imprimirMsg();
 
-   cout << "Resultado do calculo: " << calculaImposto() << "\n\n";
+   // cout << "Resultado do calculo: " << calculaImposto() << "\n\n";
+
+   int resultado;
+
+   resultado = soma(10, 20);
+
+   cout << "Resultado do calculo: " << resultado << "\n\n";
 
    system("pause");
    return 0;
