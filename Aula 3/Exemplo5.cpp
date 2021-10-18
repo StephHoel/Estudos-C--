@@ -13,7 +13,7 @@ int main()
 {
    setlocale(LC_ALL, "Portuguese");
 
-   Coordenada ponto[3];
+   Coordenada ponto[4];
 
    ponto[0].x = 10;
    ponto[0].y = 20;
@@ -39,7 +39,16 @@ int main()
 
    cout << "Ponto C - x: " << ponto[2].x << endl;
    cout << "Ponto C - y: " << ponto[2].y << endl;
-   cout << "Ponto C - z: " << ponto[2].z << endl;
+   cout << "Ponto C - z: " << ponto[2].z << endl
+        << endl;
+
+   ponto[3].x = 40;
+   ponto[3].y = 70;
+   ponto[3].z = 90;
+
+   cout << "Ponto C - x: " << ponto[3].x << endl;
+   cout << "Ponto C - y: " << ponto[3].y << endl;
+   cout << "Ponto C - z: " << ponto[3].z << endl;
 
    cout << "\n\n";
    system("pause");
