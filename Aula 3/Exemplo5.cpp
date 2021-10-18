@@ -46,9 +46,9 @@ int main()
    ponto[3].y = 70;
    ponto[3].z = 90;
 
-   cout << "Ponto C - x: " << ponto[3].x << endl;
-   cout << "Ponto C - y: " << ponto[3].y << endl;
-   cout << "Ponto C - z: " << ponto[3].z << endl;
+   cout << "Ponto D - x: " << ponto[3].x << endl;
+   cout << "Ponto D - y: " << ponto[3].y << endl;
+   cout << "Ponto D - z: " << ponto[3].z << endl;
 
    cout << "\n\n";
    system("pause");
