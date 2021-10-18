@@ -21,25 +21,27 @@ int main()
    pontoA.y = 20;
    pontoA.z = 30;
 
-   cout << "Coordenada x: " << pontoA.x << endl;
-   cout << "Coordenada y: " << pontoA.y << endl;
-   cout << "Coordenada z: " << pontoA.z << endl << endl;
+   cout << "Ponto A - x: " << pontoA.x << endl;
+   cout << "Ponto A - y: " << pontoA.y << endl;
+   cout << "Ponto A - z: " << pontoA.z << endl
+        << endl;
 
    pontoB.x = 33;
    pontoB.y = 44;
    pontoB.z = 66;
 
-   cout << "Coordenada x: " << pontoB.x << endl;
-   cout << "Coordenada y: " << pontoB.y << endl;
-   cout << "Coordenada z: " << pontoB.z << endl << endl;
+   cout << "Ponto B - x: " << pontoB.x << endl;
+   cout << "Ponto B - y: " << pontoB.y << endl;
+   cout << "Ponto B - z: " << pontoB.z << endl
+        << endl;
 
    pontoC.x = 4;
    pontoC.y = 7;
    pontoC.z = 9;
 
-   cout << "Coordenada x: " << pontoC.x << endl;
-   cout << "Coordenada y: " << pontoC.y << endl;
-   cout << "Coordenada z: " << pontoC.z << endl;
+   cout << "Ponto C - x: " << pontoC.x << endl;
+   cout << "Ponto C - y: " << pontoC.y << endl;
+   cout << "Ponto C - z: " << pontoC.z << endl;
 
    cout << "\n\n";
    system("pause");
